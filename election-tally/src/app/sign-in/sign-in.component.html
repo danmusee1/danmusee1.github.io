@@ -1,0 +1,65 @@
+<div class="bg-[#05110F] z-10">
+    
+    <header class=" lg:space-x-96 justify-between  inset-x-0 border-2 border-green-400 border-b-white z-20  fixed  top-0 pl-5 pr-5 bg-[#174E44]  flex flex-row  py-2    text-white font-bold  ">
+        <div>
+            <a routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page">
+                <img class="item-center   "src="/assets/images/Dhub_green-noback-resized.png" alt="image" width="70px "  >
+            </a>
+        </div>
+    </header>
+  
+    
+    <div class="grid justify-items-center     pt-10  relative z-10  pl-5 pr-5 ">
+        <div class="pb-10 z-40 pt-10 text-white grid justify-items-center space-y-3">
+            <h1 class="lg:text-5xl text-2xl">Login as an Administrator</h1>
+            <h1 class="text-md">To cast your votes, visit the  Voting page</h1>
+            <h1 class="text-md">Dont have an account?  Sign up</h1>
+    
+        </div>
+       
+        <div class="z-40 flex flex-row min-h-screen    justify-center items-center">
+            <form class=" pl-5 pr-5 pt-5 pb-5 rounded-lg z-20  bg-black bg-opacity-60 backdrop-blur-lg  drop-shadow-l  drop-shadow-lg w-full max-w-lg">
+               
+                <div class="  flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full ">
+                      <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-password">
+                        Email
+                      </label>
+                      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="example@gmail.com" [formControl]="email">
+                      <p class="text-gray-600 text-xs italic">We'll send you an email to confirm your account</p>
+                    </div>
+                  </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full ">
+                    <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-password">
+                      Password
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="******************" [formControl]="password">
+                    <p class="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
+                  </div>
+                </div>
+                <div class="pt-10">
+                  <button class="text-black font-bold  bg-[#49FADA] rounded-lg lg:px-48 px-28 py-3">LOGIN</button>
+                </div>
+                
+               
+              </form>
+              
+        </div>
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    </div>
+    
+    
+    <div class=" top-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden lg:block  blur-2xl  w-[20%] rounded-full bottom-[10%]  absolute  bg-[#164D43]  h-[40%] "></div>
+    <div class="  top-[60%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden lg:block  blur-2xl  w-[35%] rounded-full bottom-[10%]  absolute  bg-[#164D43]  h-[70%] "></div>
+    <div class=' lg:hidden block w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12'></div>
